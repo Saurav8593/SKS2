@@ -1,0 +1,113 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #000000;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: px;
+}
+
+/* Header Styles */
+header {
+    background-color: #4b79a1;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Section Styles */
+.section {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: white;
+    padding: px;
+    border-radius: px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #4b79a1;
+}
+
+/* Academic Card */
+.academic-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c4f0a1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(114, 48, 48, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.academic-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Photo Styling */
+.institution-photo {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Academic Details */
+.academic-details {
+    font-family: "Denk One", sans-serif;
+    flex: 1;
+    text-align: left;
+}
+
+.academic-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.academic-details p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #a6adb4;
+    color: white;
+    border-radius: 8px;
+    margin-top: 40px;
+}
